@@ -42,40 +42,44 @@ Exploratory Data Analysis (EDA) is employed to answer key research questions as 
 ### Data Analysis
 ---
 #### 1.  What is the total number of failed banks, and the total number of states that experienced bank failures?
-  To answer the questions the following were done. 
+  - To answer the questions the following were done. 
     - New measures were created for *total Banks* and *total sales*
     - Consequently, visual cards were used to present it on the dashboard.
+
+<img width="287" alt="Screenshot 2024-08-07 135129" src="https://github.com/user-attachments/assets/6be90f7e-fff1-456f-a02c-9af061bd84f0">
+
       
-<img width="100" alt="Screenshot 2024-08-07 134934" src="https://github.com/user-attachments/assets/d62c3135-4091-4bf9-958e-85426317508a">
-<img width="100" alt="Screenshot 2024-08-07 135017" src="https://github.com/user-attachments/assets/be8fcfcc-3cbd-4fc7-80a2-f1f3fd84202a">
+<img width="200" alt="Screenshot 2024-08-07 134934" src="https://github.com/user-attachments/assets/d62c3135-4091-4bf9-958e-85426317508a">
+
+<img width="200" alt="Screenshot 2024-08-07 135017" src="https://github.com/user-attachments/assets/be8fcfcc-3cbd-4fc7-80a2-f1f3fd84202a">
 
 #### 2.  Which of the states recorded the highest number of bank failures?
-  The following barchart is used to answer the question
+  - The following barchart is used to answer the question
 
-<img width="250" alt="Screenshot 2024-08-07 134703" src="https://github.com/user-attachments/assets/98daa304-bfac-4738-bab4-d98f1e87597b">
+<img width="350" alt="Screenshot 2024-08-07 134703" src="https://github.com/user-attachments/assets/98daa304-bfac-4738-bab4-d98f1e87597b">
 
 #### 3.  Which year recorded the highest number of bank failures?
-  To answer this, the following steps were taken
+  - To answer this, the following steps were taken
     - *Date table* was created first to generate year, after which a column chart visual was created as shown below.
 
-<img width="252" alt="Screenshot 2024-08-07 134739" src="https://github.com/user-attachments/assets/27177cab-9237-400c-8f89-cfe14204a69e">
+<img width="352" alt="Screenshot 2024-08-07 134739" src="https://github.com/user-attachments/assets/27177cab-9237-400c-8f89-cfe14204a69e">
 
 #### 4.  Is bank failure more common in any particular month of the year?
   Using the date table, month column was generated. Thus, the column chart below is used to answer the question,
 
-<img width="333" alt="Screenshot 2024-08-07 134800" src="https://github.com/user-attachments/assets/d83a17b0-88f2-425a-b208-5e20d33c692b">
+<img width="433" alt="Screenshot 2024-08-07 134800" src="https://github.com/user-attachments/assets/d83a17b0-88f2-425a-b208-5e20d33c692b">
 
 #### 5.  Which state did not experience any bank failures?
   The Shape map below is used to answer the question. States with colour white did not experience bank failure.
 
-<img width="333" alt="Screenshot 2024-08-07 134833" src="https://github.com/user-attachments/assets/a177887d-8210-4e25-a2a9-22f015bc9f50">
+<img width="433" alt="Screenshot 2024-08-07 134833" src="https://github.com/user-attachments/assets/a177887d-8210-4e25-a2a9-22f015bc9f50">
 
 
 ### Findings
 ---
 #### Summary of results.
 
-<img width="779" alt="Screenshot 2024-08-07 133745" src="https://github.com/user-attachments/assets/b2e73a58-1e07-4efd-be0d-0d5c4c19b173">
+<img width="879" alt="Screenshot 2024-08-07 133745" src="https://github.com/user-attachments/assets/b2e73a58-1e07-4efd-be0d-0d5c4c19b173">
 
   - The total number of failed banks was 569, spread across 44 states.
   - Georgia (GA) recorded the highest number of bank failures, with 93.
