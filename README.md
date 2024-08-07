@@ -42,54 +42,62 @@ Exploratory Data Analysis (EDA) is employed to answer key research questions as 
 ### Data Analysis
 ---
 #### What is the total number of failed banks, and the total number of states that experienced bank failures?
-  - To answer the questions the following were done. 
+  To answer the questions the following were done. 
     - New measures were created for *total Banks* and *total sales*
     - Consequently, visual cards were used to present it on the dashboard.
       
-<img width="71" alt="Screenshot 2024-08-07 134934" src="https://github.com/user-attachments/assets/d62c3135-4091-4bf9-958e-85426317508a">
-<img width="72" alt="Screenshot 2024-08-07 135017" src="https://github.com/user-attachments/assets/be8fcfcc-3cbd-4fc7-80a2-f1f3fd84202a">
+<img width="100" alt="Screenshot 2024-08-07 134934" src="https://github.com/user-attachments/assets/d62c3135-4091-4bf9-958e-85426317508a">
+<img width="100" alt="Screenshot 2024-08-07 135017" src="https://github.com/user-attachments/assets/be8fcfcc-3cbd-4fc7-80a2-f1f3fd84202a">
 
 #### Which of the states recorded the highest number of bank failures?
-- 
+  The following barchart is used to answer the question
+
+<img width="250" alt="Screenshot 2024-08-07 134703" src="https://github.com/user-attachments/assets/98daa304-bfac-4738-bab4-d98f1e87597b">
+
+#### Which year recorded the highest number of bank failures?
+  To answer this, the following steps were taken
+    - *Date table* was created first to generate year, after which a column chart visual was created as shown below.
+
+<img width="252" alt="Screenshot 2024-08-07 134739" src="https://github.com/user-attachments/assets/27177cab-9237-400c-8f89-cfe14204a69e">
+
+#### Is bank failure more common in any particular month of the year?
+  Using the date table, month column was generated. Thus, the column chart below is used to answer the question,
+
+<img width="333" alt="Screenshot 2024-08-07 134800" src="https://github.com/user-attachments/assets/d83a17b0-88f2-425a-b208-5e20d33c692b">
+
+#### Which state did not experience any bank failures?
+  The Shape map below is used to answer the question. States with colour white did not experience bank failure.
+
+<img width="333" alt="Screenshot 2024-08-07 134833" src="https://github.com/user-attachments/assets/a177887d-8210-4e25-a2a9-22f015bc9f50">
 
 ### Findings
 ---
-Summary of results.
-  - Total revenue for the period was $80,567.85, and total units of product items sold was 518.
-  - General sales/revenue trended positively in the first four months, peaking in January and April at $8,000 and $6,710, respectively, before declining until August.
-  - North America generated the highest revenue overall, with a total of $36,844.
-  - Electronics contributed the most to revenue ($34,982), while Beauty products ($2,622) and Books ($1,862) were the least. Home Appliances, Sports, and Clothing occupied the middle positions in descending order.
-  - Credit cards were used for the majority of sales but not at all in Europe. Debit cards were the least used, only appearing in Asia. PayPal was exclusively used in Europe.
-  - The top 5 product items by sales were:
-    1. Canon EOS RS Camera ($3,899.99)
-    2. LG OLED TV (2,599.98)
-    3. MacBook Pro 16-inch ($2,499.99)
-    4. Apple MacBook Pro 16-inch ($2,399)
-    5. iPhone 14 Pro ($1,999.98)
+#### Summary of results.
+
+<img width="779" alt="Screenshot 2024-08-07 133745" src="https://github.com/user-attachments/assets/b2e73a58-1e07-4efd-be0d-0d5c4c19b173">
+
+  - Total number of failed banks was 569 and total number of states that experienced bank failures was 44.
+  - Georgia (GA) recorded the highest number of bank failures at 93
+  - 2010 recorded the highest number of bank failures at 157
+  - bank failure was common in April, July and october.
+  - 7 states (Montana(MT), North Dakota(ND), Delaware(DE), Vermont(VT), Maine(ME), Rhode Island(RI), and Alaska(AK)) did not experience any bank failures
 
 ### Recommendations
 ---
-1. Leverage Seasonal Trends:
-    - Focus marketing efforts in January and April when sales peak.
-    - Plan promotions and inventory to capitalize on high-demand periods.
-2. Target High-Revenue Regions:
-    - Invest more in North American markets, which generate the highest revenue.
-    - Explore strategies to boost sales in underperforming regions.
-3. Promote High-Performing Categories:
-    - As the top revenue contributor, increase marketing for Electronics in North America.
-    - Explore opportunities to boost sales in lower-performing categories like Beauty products and Books.
-4. Optimize Payment Methods:
-    - Ensure credit cards usage is supported more in North America.
-    - Promote debit card usage in Asia and expand PayPal options in Europe.
-5. Highlight Top-Selling Products:
-    - Feature bestsellers like Canon EOS R5 Camera and LG OLED TV in marketing campaigns.
-    - Ensure sufficient stock of top-selling items to meet demand
+1. Strengthen Regulatory Oversight: Focus on states like Georgia with high bank failure rates. Implement     stricter regulatory measures to monitor and manage banks' health and stability.
+2. Improve Risk Management: Encourage banks to adopt robust risk management practices to mitigate factors    leading to failures. This includes better credit risk assessment, liquidity management, and capital       adequacy.
+3. Enhanced Monitoring During High-Risk Periods: Given that bank failures were more common in April,         July, and October, regulatory bodies should increase monitoring and support for banks during these        months.
+4. Regional Support Programs: Establish support programs in states with higher failure rates to assist       struggling banks, such as financial aid packages, restructuring advice, or temporary management           interventions.
+5. Investigation and Learning: Conduct detailed investigations into the causes of bank failures in           high-risk states and years. Use the findings to inform policy and regulatory adjustments.
+6. Public Awareness and Education: Increase public awareness about the factors leading to bank failures      and how to identify early warning signs. Educate bank management and stakeholders on best practices to    prevent failures.
 
 ### Limitations
 ---
-1. The study relies on a dataset from a single source (Kaggle), which may not fully represent all global transactions. This limitation affects the generalizability of the findings to broader market conditions.
-2. The analysis of payment methods is limited to three options (credit card, debit card, PayPal), potentially overlooking other significant payment methods used in various regions. This limitation might skew the understanding of regional payment preferences.
+1. Data Constraints: The study relies on historical data which may not capture all relevant variables        affecting bank failures. Factors such as macroeconomic conditions, market trends, and policy changes      may also play a significant role.
+2. Geographical Variations: The study does not account for regional economic differences that might          influence bank stability. Economic conditions in Georgia may be different from those in states with       fewer failures.
+3. Temporal Changes: The financial landscape changes over time. Practices that led to failures in 2010       may differ from those that could cause future failures. The findings might not be directly applicable     to current or future banking environments.
+4. Limited Scope: The research focuses on failed banks and states but does not consider the impact on the    broader economy, communities, or stakeholders affected by these failures.
 
 ### References
 ---
-  - Online Sales Dataset - Popular Marketplace Data. Kaggle.com. [link](https://www.kaggle.com/datasets/shreyanshverma27/online-sales-dataset-popular-marketplace-data)
+  - Federal Deposit Insurance Corporation (FDIC) Failed Bank List. [link](https://catalog.data.gov/dataset/fdic-failed-bank-list).
