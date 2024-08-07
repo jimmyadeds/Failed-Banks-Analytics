@@ -33,15 +33,15 @@ The dataset used is a CSV file sourced from data.gov. It is titled "FDIC Failed 
 ### Exploratory Data Analysis
 ---
 Exploratory Data Analysis (EDA) is employed to answer key research questions as follows:
-  - What is the total number of failed banks, and the total number of states that experienced bank failures?
-  - Which of the states recorded the highest number of bank failures?
-  - Which year recorded the highest number of bank failures?
-  - Is bank failure more common in any particular month of the year?
-  - Which state did not experience any bank failures?
+  1.  What is the total number of failed banks, and the total number of states that experienced bank failures?
+  2.  Which of the states recorded the highest number of bank failures?
+  3.  Which year recorded the highest number of bank failures?
+  4.  Is bank failure more common in any particular month of the year?
+  5.  Which state did not experience any bank failures?
 
 ### Data Analysis
 ---
-#### What is the total number of failed banks, and the total number of states that experienced bank failures?
+#### 1.  What is the total number of failed banks, and the total number of states that experienced bank failures?
   To answer the questions the following were done. 
     - New measures were created for *total Banks* and *total sales*
     - Consequently, visual cards were used to present it on the dashboard.
@@ -49,26 +49,27 @@ Exploratory Data Analysis (EDA) is employed to answer key research questions as 
 <img width="100" alt="Screenshot 2024-08-07 134934" src="https://github.com/user-attachments/assets/d62c3135-4091-4bf9-958e-85426317508a">
 <img width="100" alt="Screenshot 2024-08-07 135017" src="https://github.com/user-attachments/assets/be8fcfcc-3cbd-4fc7-80a2-f1f3fd84202a">
 
-#### Which of the states recorded the highest number of bank failures?
+#### 2.  Which of the states recorded the highest number of bank failures?
   The following barchart is used to answer the question
 
 <img width="250" alt="Screenshot 2024-08-07 134703" src="https://github.com/user-attachments/assets/98daa304-bfac-4738-bab4-d98f1e87597b">
 
-#### Which year recorded the highest number of bank failures?
+#### 3.  Which year recorded the highest number of bank failures?
   To answer this, the following steps were taken
     - *Date table* was created first to generate year, after which a column chart visual was created as shown below.
 
 <img width="252" alt="Screenshot 2024-08-07 134739" src="https://github.com/user-attachments/assets/27177cab-9237-400c-8f89-cfe14204a69e">
 
-#### Is bank failure more common in any particular month of the year?
+#### 4.  Is bank failure more common in any particular month of the year?
   Using the date table, month column was generated. Thus, the column chart below is used to answer the question,
 
 <img width="333" alt="Screenshot 2024-08-07 134800" src="https://github.com/user-attachments/assets/d83a17b0-88f2-425a-b208-5e20d33c692b">
 
-#### Which state did not experience any bank failures?
+#### 5.  Which state did not experience any bank failures?
   The Shape map below is used to answer the question. States with colour white did not experience bank failure.
 
 <img width="333" alt="Screenshot 2024-08-07 134833" src="https://github.com/user-attachments/assets/a177887d-8210-4e25-a2a9-22f015bc9f50">
+
 
 ### Findings
 ---
@@ -76,11 +77,12 @@ Exploratory Data Analysis (EDA) is employed to answer key research questions as 
 
 <img width="779" alt="Screenshot 2024-08-07 133745" src="https://github.com/user-attachments/assets/b2e73a58-1e07-4efd-be0d-0d5c4c19b173">
 
-  - Total number of failed banks was 569 and total number of states that experienced bank failures was 44.
-  - Georgia (GA) recorded the highest number of bank failures at 93
-  - 2010 recorded the highest number of bank failures at 157
-  - bank failure was common in April, July and october.
-  - 7 states (Montana(MT), North Dakota(ND), Delaware(DE), Vermont(VT), Maine(ME), Rhode Island(RI), and Alaska(AK)) did not experience any bank failures
+  - The total number of failed banks was 569, spread across 44 states.
+  - Georgia (GA) recorded the highest number of bank failures, with 93.
+  - The year 2010 had the highest number of bank failures, totaling 157.
+  - Bank failures were common in April, July, and October.
+  - Seven states (Montana [MT], North Dakota [ND], Delaware [DE], Vermont [VT], Maine [ME], Rhode Island [RI], and Alaska [AK]) did not experience any bank failures.
+
 
 ### Recommendations
 ---
@@ -91,6 +93,7 @@ Exploratory Data Analysis (EDA) is employed to answer key research questions as 
 5. Investigation and Learning: Conduct detailed investigations into the causes of bank failures in           high-risk states and years. Use the findings to inform policy and regulatory adjustments.
 6. Public Awareness and Education: Increase public awareness about the factors leading to bank failures      and how to identify early warning signs. Educate bank management and stakeholders on best practices to    prevent failures.
 
+
 ### Limitations
 ---
 1. Data Constraints: The study relies on historical data which may not capture all relevant variables        affecting bank failures. Factors such as macroeconomic conditions, market trends, and policy changes      may also play a significant role.
@@ -98,6 +101,7 @@ Exploratory Data Analysis (EDA) is employed to answer key research questions as 
 3. Temporal Changes: The financial landscape changes over time. Practices that led to failures in 2010       may differ from those that could cause future failures. The findings might not be directly applicable     to current or future banking environments.
 4. Limited Scope: The research focuses on failed banks and states but does not consider the impact on the    broader economy, communities, or stakeholders affected by these failures.
 
+
 ### References
 ---
-  - Federal Deposit Insurance Corporation (FDIC) Failed Bank List. [link](https://catalog.data.gov/dataset/fdic-failed-bank-list).
+  - Federal Deposit Insurance Corporation (FDIC) Failed Banks List. [link](https://catalog.data.gov/dataset/fdic-failed-bank-list).
