@@ -84,7 +84,7 @@ Exploratory Data Analysis (EDA) is employed to answer key research questions as 
   - The total number of failed banks was 569, spread across 44 states.
   - Georgia (GA) recorded the highest number of bank failures, with 93.
   - The year 2010 had the highest number of bank failures, totaling 157.
-  - Bank failures were significantly higher in April(61), July(75), and October(63).
+  - Bank failures were significantly higher in April (61), July (75), and October (63).
   - Seven states (Montana [MT], North Dakota [ND], Delaware [DE], Vermont [VT], Maine [ME], Rhode Island [RI], and Alaska [AK]) did not experience any bank failures.
 
 
