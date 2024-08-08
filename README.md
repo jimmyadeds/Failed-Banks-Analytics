@@ -64,7 +64,7 @@ Exploratory Data Analysis (EDA) is employed to answer key research questions as 
 
 <img width="352" alt="Screenshot 2024-08-07 134739" src="https://github.com/user-attachments/assets/27177cab-9237-400c-8f89-cfe14204a69e">
 
-#### 4.  Is bank failure more common in any particular month of the year?
+#### 4.  Which month(s) experienced significantly higher bank failures compared to others?
   Using the date table, month column was generated. Thus, the column chart below is used to answer the question,
 
 <img width="433" alt="Screenshot 2024-08-07 134800" src="https://github.com/user-attachments/assets/d83a17b0-88f2-425a-b208-5e20d33c692b">
@@ -84,7 +84,7 @@ Exploratory Data Analysis (EDA) is employed to answer key research questions as 
   - The total number of failed banks was 569, spread across 44 states.
   - Georgia (GA) recorded the highest number of bank failures, with 93.
   - The year 2010 had the highest number of bank failures, totaling 157.
-  - Bank failures were common in April, July, and October.
+  - Bank failures were significantly higher in April(61), July(75), and October(63).
   - Seven states (Montana [MT], North Dakota [ND], Delaware [DE], Vermont [VT], Maine [ME], Rhode Island [RI], and Alaska [AK]) did not experience any bank failures.
 
 
