@@ -13,7 +13,7 @@
   
 ### Project Overview
 ---
-This project performs exploratory analysis of failed banks in the United States between 2000 and 2024. It analyzes total banks by state, year and month. Based on the analysis, trends are identified, data-driven insights are generated, and recommendations are provided for future improvements.
+This project conducts an exploratory analysis of failed banks in the United States from 2000 to 2024, examining the total number of failures by state, year, and month. It identifies trends, generates data-driven insights, and provides recommendations for future improvements.
 
 ### Data Sources
 ---
